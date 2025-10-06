@@ -9,7 +9,7 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
 
   return (
     <>
-      <h1 className="title">Selected tab is Tab {activeTabId.split('-')[1]}</h1>
+      <h1 className="title">Selected tab is {activeTab.title}</h1>
 
       <div data-cy="TabsComponent">
         <div className="tabs is-boxed">
